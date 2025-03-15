@@ -41,6 +41,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converterGson)
     implementation(libs.loggingInterceptor)
+    implementation(libs.glide)
+    annotationProcessor(libs.glideCompiler)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

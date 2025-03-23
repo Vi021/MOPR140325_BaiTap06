@@ -7,11 +7,11 @@ import java.io.Serializable;
 public class CategoryModel implements Serializable {
     @SerializedName("id")
     private int id;
-    @SerializedName("category_name")
+    @SerializedName("name")
     private String cateName;
-    @SerializedName("category_img")
+    @SerializedName("images")
     private String cateImg;
-    @SerializedName("category_desc")
+    @SerializedName("description")
     private String cateDesc;
 
     public CategoryModel(int id, String cateName, String cateImg, String cateDesc) {
